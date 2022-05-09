@@ -65,14 +65,14 @@ st.header('>>>>>>💥图表组件')
 data_np = np.random.random((30, 4))
 # st.line_chart(data_np)      # 折线图
 # st.bar_chart(data_np)       # 条形图
-# st.area_chart(data_np)      # 填充后的折线图
-# st.map(pd.DataFrame([[112, 22]], columns=['lon', 'lat']))       # 真实的地图, pd.DataFrame([[经度，维度]], columns=['longitude', 'latitude'])
-fig, [ax1, ax2] = plt.subplots(2)    # 一个 叫 fig 的图表, 有 ax1 和 ax2 两个子图 （subplot输入的)
-ax1.plot(data_np[:, 0])
-ax2.plot(data_np[:, 1])      # 给 ax1 画 data的第一列数据， ax2 画 data的第二列
-ax1.set_title('test')           # 设置图表的 title
-ax2.set_title('train')           # 设置图表的 title
-st.pyplot(fig)                  # 展示
+st.area_chart(data_np)      # 填充后的折线图
+st.map(pd.DataFrame([[112, 22]], columns=['lon', 'lat']))       # 真实的地图, pd.DataFrame([[经度，维度]], columns=['longitude', 'latitude'])
+#fig, [ax1, ax2] = plt.subplots(2)    # 一个 叫 fig 的图表, 有 ax1 和 ax2 两个子图 （subplot输入的)
+#ax1.plot(data_np[:, 0])
+#ax2.plot(data_np[:, 1])      # 给 ax1 画 data的第一列数据， ax2 画 data的第二列
+#ax1.set_title('test')           # 设置图表的 title
+#ax2.set_title('train')           # 设置图表的 title
+#st.pyplot(fig)                  # 展示
 
 # -------多媒体组件
 st.header('>>>>>>💥多媒体组件')
