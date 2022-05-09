@@ -42,8 +42,8 @@ st.markdown(
 )
 
 st.code('print("hello world")   # code + language , 右边可以复制哦', language='python')        # 展示代码
-# st.balloons()   # 动态效果：气球
-# st.snow()       # 动态效果：雪花
+st.balloons()   # 动态效果：气球
+st.snow()       # 动态效果：雪花
 st.latex(' y = w*x + b')        # 公式展示
 
 # -------数据组件 st.dataframe 交互式表格, st.table 静态表格
