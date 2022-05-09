@@ -1,7 +1,6 @@
 import streamlit as st      # import 完了之后直接填网页内容
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 # 然后打开 cmd  cd C:\Users\王钧挚\Desktop\泰迪智能科技\st_app (当前工作内容)
 # 输入 streamlit run my_app.py (你的工作文件)
 # 修改的时候, cmd 和网页都不要关, 网页可以实时更新, 点刷新就行 (不行就 rerun)
