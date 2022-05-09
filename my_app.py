@@ -11,7 +11,7 @@ import numpy as np
 
 # -------文本组件
 st.title(':heart:Streamlit训练(title):heart:'.center(46, '.'))    # 表情用的是 facebook的 emoji代码
-st.text('你的streamlit版本是： {st.__version__} (text)'.center(80, '*'))
+st.text('你的streamlit版本是： {st.__version__} (text)')
 
 st.header('>>>>>>💥文本组件(header)')
 st.subheader('My name is Jake(subheader)')
