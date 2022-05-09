@@ -1,4 +1,4 @@
-aimport streamlit as st      # import 完了之后直接填网页内容
+import streamlit as st      # import 完了之后直接填网页内容
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
