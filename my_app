@@ -77,8 +77,7 @@ st.pyplot(fig)                  # 展示
 # -------多媒体组件
 st.header('>>>>>>💥多媒体组件')
 st.subheader('爱心'.center(10, '💘'))
-st.image('./pic/aixin.jpg')     # 展示组件  可以输入工作路径, 也可以放网址
+st.image('./Video_pictures_others/aixin.jpg')     # 展示组件  可以输入工作路径, 也可以放网址
 st.subheader('七里香-周杰伦'.center(15, '🎶'))
-st.audio('./music/七里香-周杰伦.mp3')
-st.subheader('开不了口-广告曲'.center(16, '📽'))
-st.video('./video/开不了口-广告曲.mp4')
+st.audio('./Video_pictures_others/七里香-周杰伦.mp3')
+
